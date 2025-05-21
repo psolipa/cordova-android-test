@@ -1,0 +1,11 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.zxing:core:3.2.1'
+}
+
+android {
+    buildToolsVersion '30.0.3'
+}

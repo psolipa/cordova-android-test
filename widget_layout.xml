@@ -1,0 +1,53 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.2"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:text="Por favor faça login na App" />
+
+    <ImageButton
+        android:id="@+id/update_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/update" 
+        android:background="@android:color/transparent"
+        android:contentDescription=""
+        android:scaleType="fitCenter" />
+    
+</RelativeLayout>-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/white_rounded" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="@color/goth_button_gradient_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="@dimen/padding16" android:src="@drawable/plus_logo_white" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/white" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp" android:text="@string/widget_digital_saving_card" android:layout_below="@id/logo" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-light" />
+    <ImageView android:id="@id/imageQr" android:padding="@dimen/margin_24" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dummy_qr" android:scaleType="fitCenter" android:layout_below="@id/subTitle" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/blurBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/blur" />
+    <ImageView android:id="@id/buttonBackground" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/gotham_button_dark_green" android:layout_centerInParent="true" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="@dimen/margin_16dp" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/buttonText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_add_saving_card" android:layout_centerInParent="true" android:fontFamily="@font/gotham_bold" android:paddingStart="@dimen/margin_8dp" android:paddingEnd="@dimen/margin_8dp" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="@dimen/margin_16dp" />
+</RelativeLayout>
+

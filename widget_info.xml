@@ -1,0 +1,30 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="160dp"
+    android:minHeight="120dp"
+    android:updatePeriodMillis="2000"
+    android:previewImage="@drawable/preview"
+    android:initialLayout="@layout/widget_layout"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:initialKeyguardLayout="@layout/widget_layout">
+    <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/widget_info" />
+</appwidget-provider>-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider 
+    android:minWidth="160.0dip" 
+    android:minHeight="110.0dip" 
+    android:updatePeriodMillis="60000" 
+    android:initialLayout="@layout/widget_layout" 
+    android:previewImage="@drawable/widget_preview" 
+    android:resizeMode="horizontal|vertical" 
+    android:minResizeWidth="160.0dip" 
+    android:minResizeHeight="110.0dip" 
+    android:widgetCategory="home_screen" 
+    android:maxResizeWidth="250.0dip" 
+    android:maxResizeHeight="250.0dip"
+xmlns:android="http://schemas.android.com/apk/res/android" />
+

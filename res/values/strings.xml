@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">test</string>
+    <string name="widget_digital_saving_card">Scan en spaar mee</string>
+</resources>
