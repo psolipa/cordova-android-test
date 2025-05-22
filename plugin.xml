@@ -19,6 +19,7 @@
     <platform name="android">
     <dependency id="cordova-plugin-awesome-shared-preferences"/>
         <resource-file src="res/values/dimens.xml" target="res/values/dimens.xml" />
+        <resource-file src="res/values/colors.xml" target="res/values/colors.xml" />
             
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AndroidWidget">
